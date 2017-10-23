@@ -1,0 +1,474 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+ 	font-size: 13px;
+	color: #FFFFFF;
+	background: #07598B;
+}
+
+div.container {
+    width: 1024px;
+    margin: auto;
+}
+
+
+div.header {
+    background: #404658;
+    color: white;
+    padding: 20px 0;
+}
+div.logo {
+    font-size: 25px;
+}
+.movies img {
+width: 130px;
+}
+div.header {
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,.3);
+    padding-bottom: 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+div.header .logo {
+    width: 350px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div.toplinks {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+div.topmenu {
+    float: right;
+    clear: right;
+    margin-top: 25px;
+}
+div.topmenu ul {
+    list-style: none;
+}
+div.header a {
+    color: white;
+}
+div.topmenu li {
+    float: left;
+}
+div.topmenu a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+div.topmenu a:hover {
+    border-bottom: 1px solid white;
+   
+}
+
+div.toplinks a {
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+div.slider {
+    width: 1014px;
+    height: 330px;
+    overflow: hidden;
+    border: 5px solid white;
+    margin-top: 25px;
+}
+
+div.nowshowing {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+div.movies {
+    width: 130px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    padding-top: 12px;
+    background: rgba(0,0,0,.3);
+}
+div.movies a.buy_btn {
+    background: #77AEA4;
+    color: #07294E;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h2.heading {
+	color: white;
+	padding: 5px;
+	background: rgba(0,0,0,.3);
+}
+
+div.coming_Soon {
+    float: left;
+    width: 100%;
+}
+
+div.left {
+    width: 180px;
+    float: left;
+}
+div.right {
+    width: 800px;
+    float: right;
+}
+
+p.showheading {
+    font-size: 18px;
+    margin-top: 10px;
+}
+p.showno {
+    float: left;
+    color: #0088EE;
+    font-weight: bold;
+    margin: 35px;
+}
+.tabs_detail{
+    min-height: 122px;
+}
+div.movies_info {
+    background: white;
+    color: black;
+    margin-top: 50px;
+}
+div.movies_info td,div.movies_info th {
+    padding: 10px;
+}
+div.movies_info th{
+    text-align: right;
+}
+div.movies_info tr:nth-child(odd){
+    background: #f2f2f2;
+}
+
+div.movie_heading {
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.body {
+}
+.register_form {
+width: 450px;
+float: left;
+margin-top: 30px;
+background: rgba(0,0,0,.2);
+}
+.login_form {
+width: 450px;
+float: right;
+margin-top: 30px;
+background: rgba(0,0,0,.2);
+}
+.form th {
+text-align: right;
+}
+.form td, .form th {
+padding: 10px;
+}
+.form input[type="text"], .form input[type="password"], .form input[type="email"] {
+width: 230px;
+padding: 7px;
+border: 1px solid #cccccc;
+border-radius: 3px;
+box-shadow: 1px 1px 1px #ccc;
+outline: none;
+}
+.book_flight_btn {
+background: #018FD7;
+color: white;
+border: 0;
+width: 80px;
+border-radius: 3px;
+padding: 10px;
+cursor: pointer;
+display: block;
+text-align: center;
+text-decoration: none;
+}
+.success{
+    background: green;
+    color:white;
+    padding:10px;
+}
+.error{
+    background: red;
+    color:white;
+    padding:10px;   
+}
+a.seating {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    margin-top: 20px;
+    display: block;
+    width: 130px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+table.seating_plans td {
+    padding: 5px;
+}
+
+.selected{
+    width: 20px;
+    height: 27px;
+    background: url(../img/red.png);
+    background-size: 20px 27px;
+}
+.selection{
+    width: 20px;
+    height: 27px;
+    background: url(../img/green.png);
+    background-size: 20px 27px;   
+    cursor: pointer;
+}
+.available{
+    width: 20px;
+    height: 27px;
+    background: url(../img/orange.png);
+    background-size: 20px 27px;
+    cursor: pointer;
+}
+table.seating_plans {
+    padding-top: 20px;
+    width: 670px;
+}
+
+div.seating_imgs ul {
+    list-style: none;
+}
+div.seating_imgs li {
+    float: left;
+    width: 232px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 23px;
+}
+
+div.screen {
+    text-align: center;
+    margin-top: 50px;
+    width: 670px;
+}
+
+p.showno a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.seating_left {
+    width: 700px;
+    float: left;
+    background: rgba(0,0,0,.3);  padding-bottom: 24px;      box-shadow: 0 0 5px black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+div.seating_right {
+    width: 240px;
+    float: right;
+    margin-top: 20px;
+    background: rgba(0,0,0,.3);  padding-bottom: 24px;      box-shadow: 0 0 5px black;
+}
+
+table.seating_movie_detail td,table.seating_movie_detail th {
+    padding: 10px;
+}
+table.seating_movie_detail th {
+    text-align: right;
+}
+table.seating_movie_detail {
+    background: rgba(0,0,0,.5);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+div.seat {
+    background: white;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    float: left;
+    margin-right: 21px;
+    margin-top: 20px;
+}
+
+div.seat_heading {
+    font-size: 21px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+div.seat table{
+    width: 100%;
+}
+div.seat td,div.seat th {
+    padding: 8px;
+}
+div.seat tr:nth-child(odd){
+    background:#f2f2f2;
+}
+div.seat th{
+    text-align: right;
+}
+div.total_amount a {
+    background: green;
+    color: white;
+    border: 0;
+    padding: 15px 60px;
+    font-size: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    float: right;
+}
+div.total_amount {
+    text-align: right;
+}
+
+div.detail_amount {
+    font-size: 50px;
+    text-align: right;
+    margin-top: 25px;
+}
+
+div.total_amount {
+    text-align: right;
+}
+
+select[name="payment"] {
+    width: 250px;
+    padding: 8px;
+    margin-top: 20px;
+}
+table.shipping {
+    margin-top: 30px;
+}
+table.shipping td {
+    padding: 10px;
+}
+table.shipping input[type="text"] {
+    width:230px;
+    padding:5px;
+}
+
+
+select[name="bank"] {
+    width: 242px;
+    padding: 5px;
+}
+
+div.history_results {
+    background: white;
+    color: #018FD7;
+    margin-top: 30px;
+}
+div.history_results table{
+    width: 100%;
+}
+div.history_results td,div.history_results th {
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+div.history_results th {
+    font-size: 18px;
+}
+div.history_results tr:nth-child(odd){
+    background:  #f2f2f2;
+    color:black;
+}
+
+div.showing_results {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 18px;
+}
+.history_heading{
+    background:  #018FD7!important;
+    color:white!important;
+}
+div.movie_detail {
+    clear: both;
+    background: rgba(0,0,0,.3);
+    padding: 25px 20px;
+    margin-top: 40px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+div.movie_detail {
+    clear: both;
+    background: rgba(0,0,0,.3);
+    padding: 25px 20px;
+    margin-top: 40px;
+    float: left;
+}
+
+div.movie_detail {
+    clear: both;
+    background: rgba(0,0,0,.3);
+}
+
+div.seating_right img {
+    display: block;
+    width: 120px;
+    margin: 15px auto;
+}
+div.seating_right a {
+    margin-top: 18px;
+    margin: 22px auto;
+    font-size: 20px;
+    width: 130px;
+}
+.location {
+    width: 400px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 35px;
+}
+.location h2{
+    margin-bottom: 10px;
+}
+.location p{
+    margin-bottom: 3px;
+}
+.location img{
+    margin-top: 20px;
+}
+.footer {
+    text-align: right;
+}
